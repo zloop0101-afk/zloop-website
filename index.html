@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zloop | Telegram Signal Copier - Automate Your Trading</title>
+    <meta name="description" content="Never manually copy a trade again. Automate your trading with Zloop Telegram Signal Copier. Runs 24/7 on VPS.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="assets/logo.png" alt="Zloop Logo" id="nav-logo" onerror="this.onerror=null; this.parentElement.innerHTML='<span class=\'logo-text\'>z<span class=\'neon-text\'>LOOP</span></span>'">
+            </a>
+            <div class="nav-links">
+                <a href="#how-it-works">How it works</a>
+                <a href="#features">Features</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#onboard" class="btn btn-outline">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <div class="badge">🔥 Limited spots for early access</div>
+                <h1>Never manually copy a trade again.</h1>
+                <p class="hero-subtitle">Our copier reads signals from any Telegram channel and executes trades on your MT5 account automatically — in real time, 24/7, while you sleep.</p>
+                <div class="hero-actions">
+                    <a href="#onboard" class="btn btn-primary">Start 3-Day Free Trial</a>
+                    <a href="#how-it-works" class="btn btn-secondary">See How It Works</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="glow-orb"></div>
+                <div class="glass-card mockup-card">
+                    <div class="mockup-header">
+                        <div class="dot red"></div>
+                        <div class="dot yellow"></div>
+                        <div class="dot green"></div>
+                        <span>Telegram → MT5</span>
+                    </div>
+                    <div class="mockup-body">
+                        <div class="signal-msg">
+                            <strong>Buy XAUUSD @ 2030.50</strong>
+                            <span>SL: 2025.00 | TP: 2040.00</span>
+                        </div>
+                        <div class="arrow-down">↓</div>
+                        <div class="trade-executed">
+                            <span class="icon">✅</span>
+                            <div>
+                                <strong>Trade Executed</strong>
+                                <span>0.01 Lot | 0.2s Latency</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- How it works -->
+    <section id="how-it-works" class="section">
+        <div class="container">
+            <h2 class="section-title">How it works</h2>
+            <p class="section-desc">From signal to execution in milliseconds.</p>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3>Signal Arrives</h3>
+                    <p>A trade signal is posted in your chosen Telegram channel.</p>
+                </div>
+                <div class="step-line"></div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3>Instantly Parsed</h3>
+                    <p>Zloop reads and understands the entry, SL, and TP automatically.</p>
+                </div>
+                <div class="step-line"></div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3>Trade Placed</h3>
+                    <p>The trade is executed on your MT5 account instantly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Built For & Why Ours -->
+    <section id="features" class="section dark-section">
+        <div class="container">
+            <div class="split-layout">
+                <div class="split-text">
+                    <h2 class="section-title left-align">Built for serious traders</h2>
+                    <p class="section-desc left-align">Tired of missing entries, copying manually, or being glued to your phone? Zloop gives you your time back.</p>
+                    <ul class="feature-list">
+                        <li>
+                            <div class="feature-icon">🧠</div>
+                            <div>
+                                <h4>Smart Parsing</h4>
+                                <p>Works with any signal format — no fixed template required.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="feature-icon">🎯</div>
+                            <div>
+                                <h4>Precision Entry</h4>
+                                <p>±20 pip entry tolerance for realistic market fills.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="feature-icon">⚡</div>
+                            <div>
+                                <h4>Zero Downtime</h4>
+                                <p>Runs 24/7 on a dedicated VPS — zero babysitting required.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="feature-icon">📈</div>
+                            <div>
+                                <h4>Execution Proof</h4>
+                                <p>Get the same price as your signal provider, every single time.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="split-visual">
+                     <div class="glass-card stat-card">
+                         <h3>Latency Average</h3>
+                         <div class="stat-value neon-text">0.2s</div>
+                         <p>Faster than human reaction time.</p>
+                     </div>
+                     <div class="glass-card stat-card mt-2">
+                         <h3>Uptime</h3>
+                         <div class="stat-value neon-text">99.9%</div>
+                         <p>VPS hosted for maximum reliability.</p>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="section">
+        <div class="container">
+            <h2 class="section-title">Simple, transparent pricing</h2>
+            <p class="section-desc">Choose the plan that fits your trading style. <strong>All plans include a 3-day free trial.</strong></p>
+            
+            <div class="pricing-grid">
+                <!-- Monthly Plan -->
+                <div class="pricing-card">
+                    <div class="plan-name">Monthly</div>
+                    <div class="plan-price"><span>$</span>15<span class="period">/mo</span></div>
+                    <ul class="plan-features">
+                        <li>✅ Copy from 1 Telegram Channel</li>
+                        <li>✅ Smart text parsing</li>
+                        <li>✅ Standard support</li>
+                        <li>❌ VPS Hosting not included</li>
+                    </ul>
+                    <a href="#onboard" class="btn btn-outline full-width">Select Monthly</a>
+                </div>
+
+                <!-- Lifetime Plan -->
+                <div class="pricing-card popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="plan-name">Lifetime</div>
+                    <div class="plan-price"><span>$</span>99<span class="period">/one-time</span></div>
+                    <ul class="plan-features">
+                        <li>✅ Copy from unlimited channels</li>
+                        <li>✅ All current & future features</li>
+                        <li>✅ Priority support</li>
+                        <li>✅ Multi-TP management (Coming Soon)</li>
+                    </ul>
+                    <a href="#onboard" class="btn btn-primary full-width">Get Lifetime Access</a>
+                </div>
+            </div>
+
+            <div class="hosting-addon">
+                <div class="addon-icon">🖥️</div>
+                <div class="addon-text">
+                    <h4>Need hosting?</h4>
+                    <p>We set up and manage the VPS for you for just <strong>+$10/month</strong>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Onboarding Form -->
+    <section id="onboard" class="section dark-section">
+        <div class="container form-container-wrapper">
+            <div class="form-header">
+                <h2 class="section-title">Connect Your Account</h2>
+                <p class="section-desc">Fill out the details below to initialize your Zloop copier. Your data is encrypted and secure.</p>
+            </div>
+            
+            <div class="glass-card form-card">
+                <form id="zloop-form">
+                    <div class="form-group">
+                        <label for="telegram_number">Telegram Account Phone Number</label>
+                        <input type="text" id="telegram_number" name="telegram_number" placeholder="+1 234 567 8900" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="channel_name">Target Telegram Channel</label>
+                        <input type="text" id="channel_name" name="channel_name" placeholder="e.g. @ForexSignalsGold" required>
+                        <span class="helper-text">The channel we will copy signals from.</span>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="mt5_login">MT5 Login Number</label>
+                            <input type="text" id="mt5_login" name="mt5_login" placeholder="12345678" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mt5_password">MT5 Password</label>
+                            <input type="password" id="mt5_password" name="mt5_password" placeholder="••••••••" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mt5_server">MT5 Server Name</label>
+                        <input type="text" id="mt5_server" name="mt5_server" placeholder="e.g. IC-Markets-Live03" required>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="lot_size">Fixed Lot Size</label>
+                            <input type="number" id="lot_size" name="lot_size" step="0.01" min="0.01" placeholder="0.01" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="entry_tolerance">Entry Tolerance (Pips)</label>
+                            <input type="number" id="entry_tolerance" name="entry_tolerance" value="20" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="needs_vps" name="needs_vps">
+                        <label for="needs_vps">I need VPS Hosting managed by Zloop (+$10/mo)</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary full-width submit-btn">
+                        <span class="btn-text">Connect System</span>
+                        <span class="loader hidden"></span>
+                    </button>
+                    <div id="form-message" class="form-message hidden"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <a href="#" class="logo">
+                    <img src="assets/logo.png" alt="Zloop Logo" style="height: 50px; width: auto;" onerror="this.onerror=null; this.parentElement.innerHTML='<span class=\'logo-text\'>z<span class=\'neon-text\'>LOOP</span></span>'">
+                </a>
+                <p>Automate your trading effortlessly.</p>
+            </div>
+            <div class="footer-links">
+                <p>More features coming soon: multi-TP management, trade dashboard, mobile controls.</p>
+                <div class="social-links">
+                    <a href="mailto:zloop0101@gmail.com" target="_blank" title="Email Support">📧 zloop0101@gmail.com</a>
+                    <a href="https://www.instagram.com/zloop0101/" target="_blank" title="Instagram">📷 @zloop0101</a>
+                    <a href="https://t.me/zloop0101" target="_blank" title="Telegram">✈️ @zloop0101</a>
+                    <a href="https://wa.me/03710306996" target="_blank" title="WhatsApp">💬 03710306996</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Zloop Copier. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

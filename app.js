@@ -21,11 +21,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const formMessage = document.getElementById('form-message');
 
     // IMPORTANT: Replace this URL with your Google Apps Script Web App URL after you set it up.
-    const GOOGLE_SCRIPT_URL = 'YOUR_GOOGLE_SCRIPT_WEB_APP_URL_HERE';
+    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyWJbnpNzAIan-B38KMZjITticmQkkwLeh_TqqkHNNHw2gnJ57utpB070PFrmCug76ynA/exec';
 
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
-        
+
         // Form Validation & Data Extraction
         const formData = new FormData(form);
         const data = Object.fromEntries(formData.entries());
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
         formMessage.className = 'form-message hidden';
 
         // Check if URL is configured
-        if (GOOGLE_SCRIPT_URL === 'YOUR_GOOGLE_SCRIPT_WEB_APP_URL_HERE') {
+        if (GOOGLE_SCRIPT_URL === 'https://script.google.com/macros/s/AKfycbyWJbnpNzAIan-B38KMZjITticmQkkwLeh_TqqkHNNHw2gnJ57utpB070PFrmCug76ynA/exec') {
             setTimeout(() => {
                 showFormMessage('Configuration required: Please add your Google Script URL in app.js', 'error');
                 resetBtn();
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // If we reach here without a network error, assume success
             showFormMessage('Successfully connected! We will contact you shortly.', 'success');
             form.reset();
-            
+
         } catch (error) {
             console.error('Error submitting form:', error);
             showFormMessage('Connection failed. Please try again later.', 'error');

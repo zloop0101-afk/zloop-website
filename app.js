@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
         formMessage.className = 'form-message hidden';
 
         // Check if URL is configured
-        if (GOOGLE_SCRIPT_URL === 'https://script.google.com/macros/s/AKfycbyWJbnpNzAIan-B38KMZjITticmQkkwLeh_TqqkHNNHw2gnJ57utpB070PFrmCug76ynA/exec') {
+        if (GOOGLE_SCRIPT_URL === 'YOUR_GOOGLE_SCRIPT_WEB_APP_URL_HERE') {
             setTimeout(() => {
                 showFormMessage('Configuration required: Please add your Google Script URL in app.js', 'error');
                 resetBtn();
